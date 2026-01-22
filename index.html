@@ -1,0 +1,71 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    </head>
+<body>
+    <h1>
+        Welcome to the Scoreboard App!
+    </h1>
+    <h2>
+        Keep track of your game scores easily.
+    </h2>
+    <div class="container">
+        <h2>Scoreboard</h2>
+    </div>
+    <div class="container">
+        <div>
+            <h3>HOME</h3>
+            <div class="score-bg">
+                <p id="score"> 0 </p>
+            </div>
+            <div class="botones">
+                <button class="btn" onclick="addPoints('home', 1)">+1</button>
+                <button class="btn" onclick="addPoints('home', 2)">+2</button>
+                <button class="btn" onclick="addPoints('home', 3)">+3</button>
+            </div>
+        </div>
+        <div>
+            <h3>GUEST</h3>
+            <div class="score-bg">
+                <p id="guest"> 0 </p>
+            </div>
+            <div class="botones">
+                <button class="btn" onclick="addPoints('guest', 1)">+1</button>
+                <button class="btn" onclick="addPoints('guest', 2)">+2</button>
+                <button class="btn" onclick="addPoints('guest', 3)">+3</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-2">
+        
+        <div class="faults-1">
+            <h3 class="faults">faults</h3>
+            <div class="score-bg"> 
+                <p id="fault-1"> 0 </p>
+                <button class="btn-faults">
+                    <p  onclick="homeFaults()"> +1 </p>
+                </button>
+            </div>
+        </div>
+        
+        <button class="btn-reset" id="reset" onclick="reset()">
+            <p>Reset</p>
+        </button>
+        
+        <div class="faults-1">
+            <h3 class="faults">faults</h3>
+            <div class="score-bg">
+                <p id="fault-2"> 0 </p>
+                <button class="btn-faults">
+                    <p  onclick="guestFaults()"> +1 </p>
+                </button>
+            </div>
+            
+        </div>   
+    </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
