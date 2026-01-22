@@ -6,8 +6,7 @@ Un tablero deportivo interactivo que permite llevar el puntaje de dos equipos, c
 👉 **[Ver proyecto online aquí](https://ignacamposs.github.io/Scoreboard/)** 👈
 
 ## 📸 Captura
-<img width="1919" height="912" alt="image" src="https://github.com/user-attachments/assets/7aae451c-35cf-4999-937b-743ca02d7ba2" />
-
+<img width="1919" height="913" alt="image" src="https://github.com/user-attachments/assets/55c89dc0-f99f-44d9-b9d2-7ad75adf22f7" />
 
 ## ✨ Características
 * **Puntaje Dinámico:** Botones para sumar +1, +2 y +3 puntos.
